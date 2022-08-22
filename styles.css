@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+/*Inicio*/
+
+.navbar
+{
+    display: flex;
+    background-color: #2D2D29;
+    color: #DFECE6;
+    justify-content: space-around;
+    height: 12vh;
+    align-items: center;
+    width: 100%;
+    font-size: 1rem;
+    
+}
+.navbar-1
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+.navbar a
+{
+    text-decoration: none;
+    color: #DFECE6;
+    padding: 0 1vw;
+}
+.navbar-1 h1
+{
+    color: #3CA2A2;
+    font-weight: bolder;
+}
+.navbar-2
+{
+    display: flex;
+    align-items: center;
+}
+.navbar-2-1 a
+{
+    display: flex;
+}
+.navbar-2-1 p
+{
+    padding-right: 5px;
+}
+.barra-buscador
+{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: #DFECE6;
+    width: 20vw;
+    height: 4vh;
+    padding: 0 1%;
+    font-size: 1rem;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.lupita
+{
+    background-color: #DFECE6 ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 4vh;
+    padding: 6px;
+}
+.fondo-1 
+{
+    width: 100%;
+    height: 88vh;
+    position: relative;
+    display: flex;
+    z-index: 1;
+}
+.fondo-1 img
+{
+    width: 100%;
+    height: 100%;
+}
+.fondo-frase
+{
+    z-index: 100;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    width: auto;
+}
+.fondo-frase-1
+{
+    
+    background-color: #3CA2A2;
+    border: 3px solid #3CA2A2;
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.25);
+    
+}
+.fondo-frase-titulo
+{
+    background-color: #3CA2A2;
+    padding: 4vh 2vw;
+}
+.h1-negro
+{
+    color: #2D2D29;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-bottom: 1%;
+}
+.h1-blanco
+{
+    color: #DFECE6;
+    font-size: 1.6rem;
+    padding-bottom: 1%;
+}
+.fondo-ver-crear
+{
+    padding-top: 2%;
+}
+.btn
+{
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    padding: 10px;
+    font-size: 1rem;
+}
+.btn:hover
+{
+    cursor: pointer;
+}
+.ver-curso
+{
+    background: #DFECE6;
+    color: #2D2D29;
+    margin-right: 2%;
+}
+.crear-cuenta
+{
+    background: #3CA2A2;
+    color: #DFECE6;
+}
+
+/*Explorar*/
+
+.explorar-cursos
+{
+    padding-left: 10%;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.h1-azul 
+{
+    font-size: 2.5rem;
+    color: #215A6D;
+}
+.h1-azulito
+{
+    color: #3CA2A2;
+    font-size: 2rem;
+}
+.cont_cursos
+{
+    padding:0 10%;
+}
+.cont_cursos1
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3%;
+}
+.cont_cursos2
+{
+    width: 23%;
+    background-color: #F3F8F6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.cont_cursos2 img
+{
+    width: 100%;
+}
+.cont_cursos2 h1
+{
+    font-size: 1.5rem;
+    color: #3CA2A2;
+    padding: 8% 5%;
+}
+.cont_cursos2 p
+{
+    font-size: 1rem;
+    color: #2D2D29;
+    padding:0 5%;
+}
+.btn_comprar
+{
+    margin: 8% 5%;
+    border-radius: 0px;
+    background-color: #3CA2A2;
+    box-shadow: none;
+    color: #DFECE6;
+}
+.btn_explorar_cursos
+{
+    background-color: #2D2D29;
+    color: #DFECE6;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.btn_explorar_cursos img
+{
+    padding-left: 10px;
+}
+.btn_text
+{
+    text-align: center;
+}
+
+/*quienes somos*/
+
+
+.somos
+{
+    padding-top: 4%;
+
+}
+.somos img
+{
+    padding-top: 5%;
+}
+.quienes
+{
+    background-color: #DFECE6;
+}
+.quienes1
+{
+    display: flex;
+    padding: 0 15%;
+    justify-content: space-evenly;
+
+}
+.mision1
+{
+    display: flex;
+    padding: 0 15%;
+    justify-content: space-evenly
+
+}
+.mision1 img
+{
+    order: 1;
+}
+.vision1
+{
+    display: flex;
+    background-color: #DFECE6;
+    padding: 0 15%;
+    justify-content: space-evenly
+
+}
+.text1
+{
+    width: 30%;
+    align-self: center;
+}
+.text1 h1
+{
+    color: #69828A;
+    padding-bottom: 6%;
+}
+.text1 p
+{
+    color: #2D2D29;
+}
+.text2
+{
+    align-self: center;
+    text-align: right;
+}
+.text2 h1
+{
+    color: #112F39;
+}
+
+/*estudiantes*/
+
+.slick
+{
+    width: 80%;
+    margin: auto;
+}
+.cont_estudiante
+{
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 10px;
+}
+.cont_estudiante h1
+{
+    color: #112F39;
+    padding-bottom: 5%;
+}
+.cont_estudiante p
+{
+    color: #2D2D29;
+    padding-bottom: 5%;
+}
+.btn_seguir
+{
+    background-color: #2D2D29;
+    color: #DFECE6;
+}
+.text3
+{
+    padding: 5%;
+}
+.cont_estudiante img
+{
+    width: 100%;
+}
+
+/*Contacto*/
+
+.contacto
+{
+    margin-top: 2%;
+    background-color: #DFECE6;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.form
+{
+
+    width: 40%; 
+}
+.text-1
+{   
+    color: #081E18;
+    padding: 10% 0;
+}
+.text-2
+{
+    display: flex;
+    padding: 2% 0;
+}
+.text-2 p
+{
+    align-self: center;
+    padding-left: 4%;
+}
+.formulario
+{
+    width: 100%;
+    background-color: #2D2D29;  
+    border-radius: 10px;
+    padding: 5% 8%;
+    margin: auto;
+}
+.sep
+{
+    display: flex;
+    justify-content: space-between;
+}
+.sep1 p
+{
+    color: white;
+    padding-bottom: 10px;
+
+}
+.sep1
+{
+    padding-bottom: 10px;
+    width: 48%;
+}
+.field-1
+{
+    width:100% ;
+    height: 4vh;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3%;
+    line-height: 30px;
+}
+.field-1-1
+{
+    width:100% ;
+    height: 20vh;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: none;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3%;
+    line-height: 30px;
+}
+.sep2
+{
+    color: white;
+}
+.btn-1    
+{
+    padding: 2% 0;
+    width: 15%;
+    border-radius: 10px;
+    color: #000000;
+    border: none;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.6rem;
+    cursor: pointer;
+}
+.text5
+{
+    text-align: left;
+}
+.text5 h1
+{
+    color: #112F39;
+}
+.text5 p
+{
+    color: #2D2D29;
+}
+.text4
+{
+    align-self: center;
+}
+.text6
+{
+    padding-bottom: 15%;
+}
+.icons
+{
+    background-color: #2D2D29;
+    text-align: center;
+    padding: 10px 0;
+}
+.icons img
+{
+    padding: 0 10px;
+}
+
+
+
+
+@media(max-width: 950px){
+.navbar
+{
+    height: auto;
+    display: inline-block;
+    padding: 3% 0;
+}
+.navbar-1
+{
+    overflow: hidden;
+}
+.navbar-2
+{
+    overflow: hidden;
+}
+.barra-buscador
+{
+    overflow: hidden;
+    width: 0;
+    height: 0;
+}
+.lupita
+{
+    overflow: hidden;
+    height: 0;
+    padding: 0;
+}
+.navbar a
+{
+    font-size: 1rem;
+    padding: 0 5vw;
+}
+.navbar-1 h1
+{
+    font-size: 2.5rem;
+    padding-left: 6vw;
+}
+.cont_cursos1_2
+{
+    display: none;
+}
+.fondo-frase {
+    top: 10%;
+    left: 0;
+    width: 100%;
+    position: relative;
+}
+.fondo-1
+{
+    display: none;  
+}
+.fondo-frase-titulo {
+    padding: 4vh 5vw;
+}
+.fondo-ver-crear {
+    padding: 2% 5vw;
+    display: none;
+}
+.cont_cursos1 {
+    display: inline-block;
+    padding-bottom: 3%;
+}
+.cont_cursos2 {
+    width: 100%;
+    margin-bottom: 10%;
+}
+.quienes1 {
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+}
+.text1 {
+    width: 100%;
+    align-self: center;
+    padding: 10%;
+}
+.mision1 {
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+}
+.text2 {
+    text-align: center;
+}
+.vision1 {
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+}
+.somos img {
+    padding-top: 5%;
+    width: 80%;
+}
+.contacto {
+    display: inline-block;
+    width: 100%;
+}
+.form {
+    width: 100%;
+}
+.text5 {
+    padding:10% 10%; 
+}
+.text6 {
+    padding-bottom: 0%;
+}
+.btn-1 {
+    width:30%;
+}
+}
